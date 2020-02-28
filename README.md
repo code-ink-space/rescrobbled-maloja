@@ -2,8 +2,7 @@
 
 A fork of [rescrobbled](https://github.com/InputUsername/rescrobbled) to scrobble to a selfhosted [Maloja](https://github.com/krateng/maloja) server in addition to Last.fm. All scrobbling features for Listenbrainz.org have been replaced with Maloja.
 
-I used code from [listenbrainz-rust 0.2.2
-](https://crates.io/crates/listenbrainz-rust) as the foundation for scrobbling to Maloja. I couldn't find any easy and universal way to scrobble to Maloja from Linux so I'm lucky to have found rescrobbled.
+I used code from [listenbrainz-rust 0.2.2](https://crates.io/crates/listenbrainz-rust) as the foundation for scrobbling to Maloja. I couldn't find any easy and universal way to scrobble to Maloja from Linux so I'm lucky to have found rescrobbled. (I already use [Pano Scrobbler](https://github.com/kawaiiDango/pScrobbler) on Android and it works with Maloja.) I just have no need for ListenBrainz that's why I took it out to keep it clean and small. I imagine it should be easy though to include all three scrobbling platforms if necessary. I just needed to check out how rust works so I made this.
 
 *I edited the original README below to fit this fork.*
 

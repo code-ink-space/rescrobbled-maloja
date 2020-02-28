@@ -1,6 +1,6 @@
 [Unit]
 Description=An MPRIS scrobbler
-Documentation=https://github.com/InputUsername/rescrobbled
+Documentation=https://github.com/code-ink-space/rescrobbled-maloja
 Wants=network-online.target
 After=network-online.target
 
